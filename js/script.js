@@ -33,4 +33,13 @@ createApp({
             currentSlideIndex: 0
         };
     },
+    methods: {
+        nextSlide() {
+            this.currentSlideIndex = (this.currentSlideIndex + 1) % this.slides.length;
+        },
+        prevSlide() {
+            this.currentSlideIndex = (this.currentSlideIndex - 1 + this.slides.length) % this.slides.length;
+        }
+    }
 }).mount('#app');
+
