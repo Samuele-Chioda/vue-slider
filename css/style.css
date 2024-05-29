@@ -31,3 +31,15 @@
     text-align: right;
     color: white;
 }
+
+/* modifiche */
+
+button{
+    margin:1rem;
+    border-radius: 15px;
+    padding:.5rem;
+    background-color: chartreuse;
+    color: black;
+    font-weight:bold ;
+    border:2px solid white;
+}
